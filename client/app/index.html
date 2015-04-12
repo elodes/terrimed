@@ -22,6 +22,8 @@
 
     <!-- Add your site or application content here -->
     <div class="header">
+
+
       <div class="navbar navbar-default" role="navigation">
         <div class="container">
           <div class="navbar-header">
@@ -40,6 +42,26 @@
 
             <ul class="nav navbar-nav pull-right">
               <li ng-class="{ active: isActive('/Link1') }"><a href="#/Link1">Link1</a></li>
+              <li class="dropdown">
+                <a data-toggle="dropdown" class="dropdown-toggle" href="#">Dropdown
+                  <b class="caret"></b>
+                </a>
+
+                <ul class="dropdown-menu">
+                  <li>
+                    <a href="#">Action</a>
+                  </li>
+                  <li>
+                    <a href="#">Action</a>
+                  </li>
+                  <li>
+                    <a href="#">Action</a>
+                  </li>
+                  </ul>
+              <li ng-class="{ active: isActive('/Link2') }"><a href="#/Link2">Link2</a></li>
+              <li ng-class="{ active: isActive('/Link3') }"><a href="#/Link3">Link3</a></li>
+              <li ng-class="{ active: isActive('/about') }"><a href="#/about">About</a></li>
+              <li ng-class="{ active: isActive('/Link1') }"><a href="#/Link1">Link1</a></li>
               <li ng-class="{ active: isActive('/Link2') }"><a href="#/Link2">Link2</a></li>
               <li ng-class="{ active: isActive('/Link3') }"><a href="#/Link3">Link3</a></li>
               <li ng-class="{ active: isActive('/about') }"><a href="#/about">About</a></li>
@@ -57,7 +79,11 @@
 
     <div class="footer">
       <div class="container">
-        <p><i class="fa fa-heart"></i></span> from the Yeoman team</p>
+        <p><span class="fa-stack fa-lg">
+  <i class="fa fa-heart-o fa-stack-2x"></i>
+  <i class="fa fa-bicycle fa-stack-1x"></i>
+</span></i>
+</span> from the Yeoman team</p>
       </div>
     </div>
 
