@@ -33,6 +33,62 @@ angular
         templateUrl: 'views/signup.html',
         controller: 'SignupCtrl'
       })
+      .when('/philosophy', {
+        templateUrl: 'views/philosophy.html',
+        controller: 'AboutCtrl'
+      })
+      .when('/adolescents', {
+        templateUrl: 'views/adolescents.html',
+        controller: 'AboutCtrl'
+      })
+      .when('/adults', {
+        templateUrl: 'views/adults.html',
+        controller: 'AboutCtrl'
+      })
+      .when('/children', {
+        templateUrl: 'views/children.html',
+        controller: 'AboutCtrl'
+      })
+      .when('/contact', {
+        templateUrl: 'views/contact.html',
+        controller: 'AboutCtrl'
+      })
+      .when('/depression', {
+        templateUrl: 'views/depression.html',
+        controller: 'AboutCtrl'
+      })
+      .when('/grief', {
+        templateUrl: 'views/grief.html',
+        controller: 'AboutCtrl'
+      })
+      .when('/media', {
+        templateUrl: 'views/media.html',
+        controller: 'AboutCtrl'
+      })
+      .when('/payment', {
+        templateUrl: 'views/payment.html',
+        controller: 'AboutCtrl'
+      })
+      .when('/teens', {
+        templateUrl: 'views/teens.html',
+        controller: 'AboutCtrl'
+      })
+      .when('/videocounseling', {
+        templateUrl: 'views/videocounseling.html',
+        controller: 'AboutCtrl'
+      })
+      .when('/weight', {
+        templateUrl: 'views/weight.html',
+        controller: 'AboutCtrl'
+      })
+      .when('/forms', {
+        templateUrl: 'views/forms.html',
+        controller: 'AboutCtrl'
+      })
+      .when('/blog', {
+        templateUrl: 'views/blog.html',
+        controller: 'AboutCtrl'
+      })
       .otherwise({
         redirectTo: '/'
       });
