@@ -4,6 +4,7 @@
 // endbower
 @import "partials/signup";
 
+
 .browsehappy {
   margin: 0.2em 0;
   background: #ccc;
@@ -27,6 +28,13 @@ body {
 .header {
   border-bottom: 1px solid #e5e5e5;
   margin-bottom: 10px;
+  color: #ECECEC;
+
+/*Style for front visual links */
+.frontlink {
+  text-align: center;
+  font: "Bookman", Georgia, "Times New Roman", serif;
+}
 
   /* Make the masthead heading the same height as the navigation */
   h3 {
@@ -93,5 +101,5 @@ body {
 
 
 .navbar-default{
-  background: $cyan;
+  background: $bluegrey;
 }
