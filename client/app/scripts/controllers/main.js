@@ -15,6 +15,20 @@ angular.module('clientApp')
       'Karma'
     ];
 
+    $(function(){
+      $(".dropdown").hover(
+        function() {
+          $('.dropdown-menu', this).stop( true, true ).fadeIn("fast");
+          $(this).toggleClass('open');
+          $('b', this).toggleClass("caret caret-up");
+        },
+        function() {
+          $('.dropdown-menu', this).stop( true, true ).fadeOut("fast");
+          $(this).toggleClass('open');
+          $('b', this).toggleClass("caret caret-up");
+        });
+    });
+
     //$scope.isActive = function (viewLocation) {
     //  var active = (viewLocation === $location.path());
     //  return active;

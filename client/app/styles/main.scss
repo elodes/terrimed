@@ -29,11 +29,15 @@ body {
   border-bottom: 1px solid #e5e5e5;
   margin-bottom: 10px;
   color: #ECECEC;
+}
 
 /*Style for front visual links */
 .frontlink {
-  text-align: center;
-  font: "Bookman", Georgia, "Times New Roman", serif;
+  a {
+    text-align: center;
+    font: "Bookman", Georgia, "Times New Roman", serif;
+  }
+
 }
 
   /* Make the masthead heading the same height as the navigation */
@@ -43,7 +47,6 @@ body {
     line-height: 40px;
     padding-bottom: 19px;
   }
-}
 
 /* Custom page footer */
 .footer {
@@ -100,6 +103,22 @@ body {
 }
 
 
-.navbar-default{
-  background: $bluegrey;
+.navbar-default {
+  background: $lighterblue-grey;
+
+  /* Color of navbar links */
+  .navbar-nav {
+    li {
+      a {
+        color: $bluegrey;
+      }
+    }
+  }
+
+  /* Color of navbar brand link */
+  .navbar-brand {
+    color: $bluegrey;
+  }
 }
+
+/*add hover action on dropdown menus */
