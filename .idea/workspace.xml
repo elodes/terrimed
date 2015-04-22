@@ -586,7 +586,7 @@
       <workItem from="1428876817958" duration="3821000" />
       <workItem from="1428892669909" duration="2037000" />
       <workItem from="1429323992634" duration="2261000" />
-      <workItem from="1429405898814" duration="12296000" />
+      <workItem from="1429405898814" duration="12305000" />
     </task>
     <task id="LOCAL-00001" summary="Added dropdown menu on Nav bar; 4 columns on main page.">
       <created>1428880915166</created>
@@ -624,11 +624,17 @@
       <option name="project" value="LOCAL" />
       <updated>1429673742304</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Fixed navbar style, added photo links, added hover action jscript">
+      <created>1429673836979</created>
+      <option name="number" value="00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1429673836979</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28417000" />
+    <option name="totallyTimeSpent" value="28426000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="28" y="22" width="1440" height="819" extended-state="6" />
