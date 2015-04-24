@@ -31,14 +31,7 @@ body {
   color: #ECECEC;
 }
 
-/*Style for front visual links */
-.frontlink {
-  a {
-    text-align: center;
-    font: "Bookman", Georgia, "Times New Roman", serif;
-  }
 
-}
 
   /* Make the masthead heading the same height as the navigation */
   h3 {
@@ -121,4 +114,24 @@ body {
   }
 }
 
-/*add hover action on dropdown menus */
+/*Style for front visual links */
+
+.frontlink {
+  h3 {
+    text-align: center;
+    font-family: 'Slabo 27px', serif;
+  }
+}
+
+
+
+/*Page Background texture */
+.texture {
+  background: url('image/boy-square.png');
+}
+
+/* controls main container color
+.container {
+  background-color: deeppink;
+}
+*/
