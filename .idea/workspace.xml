@@ -7,14 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="79c9bd9a-45cd-4a1d-8c7a-d5f214d7993a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/app/images/CCSlogo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/app/images/banner1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/app/images/eye-square.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/app/images/girl250.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/app/images/lonely.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/app/images/scale.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/app/images/terrim.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/app/images/woman-square.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/app/images/window-square.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="mithrandir.iws" />
@@ -37,10 +30,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="main.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="main.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/client/app/views/main.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
+            <state vertical-scroll-proportion="0.04109589">
               <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
               <folding />
             </state>
@@ -117,10 +110,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/app/styles/main.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6164383">
+            <state vertical-scroll-proportion="-18.75">
               <caret line="136" column="5" selection-start-line="136" selection-start-column="5" selection-end-line="136" selection-end-column="5" />
               <folding />
             </state>
@@ -844,7 +837,7 @@
       <workItem from="1429405898814" duration="12322000" />
       <workItem from="1429838807852" duration="10774000" />
       <workItem from="1429902823640" duration="42950000" />
-      <workItem from="1430016472512" duration="617000" />
+      <workItem from="1430016472512" duration="749000" />
     </task>
     <task id="LOCAL-00001" summary="Added dropdown menu on Nav bar; 4 columns on main page.">
       <created>1428880915166</created>
@@ -912,11 +905,17 @@
       <option name="project" value="LOCAL" />
       <updated>1430016568477</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="style tweaks">
+      <created>1430086818582</created>
+      <option name="number" value="00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1430086818582</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="82784000" />
+    <option name="totallyTimeSpent" value="82916000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="874" extended-state="6" />
@@ -1329,14 +1328,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/app/views/main.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client/app/styles/_variables.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1355,8 +1346,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/client/app/styles/main.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6164383">
+        <state vertical-scroll-proportion="-18.75">
           <caret line="136" column="5" selection-start-line="136" selection-start-column="5" selection-end-line="136" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/app/views/main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.04109589">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
           <folding />
         </state>
       </provider>
