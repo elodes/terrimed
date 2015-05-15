@@ -89,6 +89,10 @@ angular
         templateUrl: 'views/blog.html',
         controller: 'AboutCtrl'
       })
+      .when('/terri', {
+        templateUrl: 'views/terri.html',
+        controller: 'AboutCtrl'
+      })
       .otherwise({
         redirectTo: '/'
       });
