@@ -51,7 +51,7 @@ angular
       })
       .when('/contact', {
         templateUrl: 'views/contact.html',
-        controller: 'AboutCtrl'
+        controller: 'ContactCtrl'
       })
       .when('/depression', {
         templateUrl: 'views/depression.html',
@@ -92,6 +92,10 @@ angular
       .when('/terri', {
         templateUrl: 'views/terri.html',
         controller: 'AboutCtrl'
+      })
+      .when('/submit', {
+        templateUrl: 'views/submit.html',
+        controller: 'MainCtrl'
       })
       .otherwise({
         redirectTo: '/'
