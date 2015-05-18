@@ -7,9 +7,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="79c9bd9a-45cd-4a1d-8c7a-d5f214d7993a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/views/children.html" afterPath="$PROJECT_DIR$/client/app/views/children.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/index.html" afterPath="$PROJECT_DIR$/client/app/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/views/main.html" afterPath="$PROJECT_DIR$/client/app/views/main.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="mithrandir.iws" />
@@ -916,7 +913,7 @@
       <workItem from="1430677449395" duration="2690000" />
       <workItem from="1431652187100" duration="3853000" />
       <workItem from="1431715118668" duration="5889000" />
-      <workItem from="1431832179012" duration="4224000" />
+      <workItem from="1431832179012" duration="4310000" />
     </task>
     <task id="LOCAL-00001" summary="Added dropdown menu on Nav bar; 4 columns on main page.">
       <created>1428880915166</created>
@@ -1026,11 +1023,17 @@
       <option name="project" value="LOCAL" />
       <updated>1431972822721</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="small updates early launch1">
+      <created>1431981176852</created>
+      <option name="number" value="00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1431981176852</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="102050000" />
+    <option name="totallyTimeSpent" value="102136000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="874" extended-state="6" />
@@ -1126,7 +1129,8 @@
     <MESSAGE value="adding copy, a few banner images" />
     <MESSAGE value="playing with form, small banner/footer changes" />
     <MESSAGE value="front page temp update" />
-    <option name="LAST_COMMIT_MESSAGE" value="front page temp update" />
+    <MESSAGE value="small updates early launch1" />
+    <option name="LAST_COMMIT_MESSAGE" value="small updates early launch1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
