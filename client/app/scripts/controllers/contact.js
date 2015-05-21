@@ -48,6 +48,7 @@ angular.module('clientApp')
 
    sendgrid.send(email);
 
+// google dynamic map needs
 
 
     //$scope.isActive = function (viewLocation) {
