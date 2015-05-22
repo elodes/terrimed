@@ -33,8 +33,8 @@
       <file leaf-file-name="main.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/client/app/views/main.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.39041096">
-              <caret line="19" column="33" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
+            <state vertical-scroll-proportion="0.41095892">
+              <caret line="20" column="24" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -878,7 +878,7 @@
       <workItem from="1431652187100" duration="3853000" />
       <workItem from="1431715118668" duration="5889000" />
       <workItem from="1431832179012" duration="15199000" />
-      <workItem from="1432311371571" duration="740000" />
+      <workItem from="1432311371571" duration="835000" />
     </task>
     <task id="LOCAL-00001" summary="Added dropdown menu on Nav bar; 4 columns on main page.">
       <created>1428880915166</created>
@@ -1126,11 +1126,17 @@
       <option name="project" value="LOCAL" />
       <updated>1432311945708</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="circle spacing">
+      <created>1432312145515</created>
+      <option name="number" value="00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1432312145515</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="113765000" />
+    <option name="totallyTimeSpent" value="113860000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="874" extended-state="6" />
@@ -1212,7 +1218,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Completing navbar with dropdown menus. Added route scripts for each page." />
     <MESSAGE value="Added visual link photos, attempted sass" />
     <MESSAGE value="Fixed navbar style, added photo links, added hover action jscript" />
     <MESSAGE value="Centered frontlinks, tried to make them clickable (fail), fonts, containers" />
@@ -1237,7 +1242,8 @@
     <MESSAGE value="typos" />
     <MESSAGE value="footer update" />
     <MESSAGE value="grief banner" />
-    <option name="LAST_COMMIT_MESSAGE" value="grief banner" />
+    <MESSAGE value="circle spacing" />
+    <option name="LAST_COMMIT_MESSAGE" value="circle spacing" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1610,8 +1616,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/client/app/views/main.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.39041096">
-          <caret line="19" column="33" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
+        <state vertical-scroll-proportion="0.41095892">
+          <caret line="20" column="24" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
           <folding />
         </state>
       </provider>
