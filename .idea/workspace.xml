@@ -7,15 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="79c9bd9a-45cd-4a1d-8c7a-d5f214d7993a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/app/images/girlbeach-banner.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/app/images/manfield-banner.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/app/images/roots-banner.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/app/images/womanlooking-banner.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/views/adolescents.html" afterPath="$PROJECT_DIR$/client/app/views/adolescents.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/views/depression.html" afterPath="$PROJECT_DIR$/client/app/views/depression.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/views/grief.html" afterPath="$PROJECT_DIR$/client/app/views/grief.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/views/main.html" afterPath="$PROJECT_DIR$/client/app/views/main.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/views/weight.html" afterPath="$PROJECT_DIR$/client/app/views/weight.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="mithrandir.iws" />
@@ -48,11 +40,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="grief.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="grief.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/app/views/grief.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.08219178">
-              <caret line="4" column="52" selection-start-line="4" selection-start-column="52" selection-end-line="4" selection-end-column="52" />
+            <state vertical-scroll-proportion="-9.375">
+              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="adolescents.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/client/app/views/adolescents.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.49315068">
+              <caret line="24" column="7" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -162,10 +164,10 @@
         <option value="$PROJECT_DIR$/client/app/views/about.html" />
         <option value="$PROJECT_DIR$/client/app/index.html" />
         <option value="$PROJECT_DIR$/client/app/views/main.html" />
-        <option value="$PROJECT_DIR$/client/app/views/adolescents.html" />
         <option value="$PROJECT_DIR$/client/app/views/depression.html" />
         <option value="$PROJECT_DIR$/client/app/views/weight.html" />
         <option value="$PROJECT_DIR$/client/app/views/grief.html" />
+        <option value="$PROJECT_DIR$/client/app/views/adolescents.html" />
       </list>
     </option>
   </component>
@@ -875,7 +877,7 @@
       <workItem from="1430677449395" duration="2690000" />
       <workItem from="1431652187100" duration="3853000" />
       <workItem from="1431715118668" duration="5889000" />
-      <workItem from="1431832179012" duration="12049000" />
+      <workItem from="1431832179012" duration="12933000" />
     </task>
     <task id="LOCAL-00001" summary="Added dropdown menu on Nav bar; 4 columns on main page.">
       <created>1428880915166</created>
@@ -1027,11 +1029,17 @@
       <option name="project" value="LOCAL" />
       <updated>1432261831593</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="circle banners">
+      <created>1432264153082</created>
+      <option name="number" value="00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1432264153082</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="109875000" />
+    <option name="totallyTimeSpent" value="110759000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="874" extended-state="6" />
@@ -1132,7 +1140,8 @@
     <MESSAGE value="small updates early launch3" />
     <MESSAGE value="small updates early launch4" />
     <MESSAGE value="add meta tag" />
-    <option name="LAST_COMMIT_MESSAGE" value="add meta tag" />
+    <MESSAGE value="circle banners" />
+    <option name="LAST_COMMIT_MESSAGE" value="circle banners" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1479,14 +1488,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/app/views/adolescents.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.24657534">
-          <caret line="12" column="50" selection-start-line="12" selection-start-column="50" selection-end-line="12" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client/app/views/teens.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.24657534">
@@ -1521,8 +1522,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/client/app/views/grief.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.08219178">
-          <caret line="4" column="52" selection-start-line="4" selection-start-column="52" selection-end-line="4" selection-end-column="52" />
+        <state vertical-scroll-proportion="-9.375">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/app/views/adolescents.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.49315068">
+          <caret line="24" column="7" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
           <folding />
         </state>
       </provider>
