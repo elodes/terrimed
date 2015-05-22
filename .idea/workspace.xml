@@ -100,8 +100,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/client/app/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.739726">
-              <caret line="159" column="18" selection-start-line="159" selection-start-column="18" selection-end-line="159" selection-end-column="18" />
+            <state vertical-scroll-proportion="0.80136985">
+              <caret line="162" column="9" selection-start-line="162" selection-start-column="9" selection-end-line="162" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -887,7 +887,7 @@
       <workItem from="1430677449395" duration="2690000" />
       <workItem from="1431652187100" duration="3853000" />
       <workItem from="1431715118668" duration="5889000" />
-      <workItem from="1431832179012" duration="14711000" />
+      <workItem from="1431832179012" duration="14783000" />
     </task>
     <task id="LOCAL-00001" summary="Added dropdown menu on Nav bar; 4 columns on main page.">
       <created>1428880915166</created>
@@ -1093,11 +1093,17 @@
       <option name="project" value="LOCAL" />
       <updated>1432267052704</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="footer update">
+      <created>1432267141406</created>
+      <option name="number" value="00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1432267141406</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="112537000" />
+    <option name="totallyTimeSpent" value="112609000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="874" extended-state="6" />
@@ -1593,8 +1599,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/client/app/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.739726">
-          <caret line="159" column="18" selection-start-line="159" selection-start-column="18" selection-end-line="159" selection-end-column="18" />
+        <state vertical-scroll-proportion="0.80136985">
+          <caret line="162" column="9" selection-start-line="162" selection-start-column="9" selection-end-line="162" selection-end-column="9" />
           <folding />
         </state>
       </provider>
