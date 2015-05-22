@@ -7,8 +7,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="79c9bd9a-45cd-4a1d-8c7a-d5f214d7993a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/app/images/art-supplies.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/app/images/kid-picture.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/views/adolescents.html" afterPath="$PROJECT_DIR$/client/app/views/adolescents.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -55,8 +53,8 @@
       <file leaf-file-name="adolescents.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/client/app/views/adolescents.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6369863">
-              <caret line="31" column="6" selection-start-line="31" selection-start-column="6" selection-end-line="31" selection-end-column="6" />
+            <state vertical-scroll-proportion="0.5958904">
+              <caret line="29" column="23" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -879,7 +877,7 @@
       <workItem from="1430677449395" duration="2690000" />
       <workItem from="1431652187100" duration="3853000" />
       <workItem from="1431715118668" duration="5889000" />
-      <workItem from="1431832179012" duration="13376000" />
+      <workItem from="1431832179012" duration="13481000" />
     </task>
     <task id="LOCAL-00001" summary="Added dropdown menu on Nav bar; 4 columns on main page.">
       <created>1428880915166</created>
@@ -1043,11 +1041,17 @@
       <option name="project" value="LOCAL" />
       <updated>1432265363818</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="child copy &amp; pics">
+      <created>1432265808398</created>
+      <option name="number" value="00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1432265808398</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="111202000" />
+    <option name="totallyTimeSpent" value="111307000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="874" extended-state="6" />
@@ -1150,7 +1154,8 @@
     <MESSAGE value="add meta tag" />
     <MESSAGE value="circle banners" />
     <MESSAGE value="child copy" />
-    <option name="LAST_COMMIT_MESSAGE" value="child copy" />
+    <MESSAGE value="child copy &amp; pics" />
+    <option name="LAST_COMMIT_MESSAGE" value="child copy &amp; pics" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1539,8 +1544,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/client/app/views/adolescents.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6369863">
-          <caret line="31" column="6" selection-start-line="31" selection-start-column="6" selection-end-line="31" selection-end-column="6" />
+        <state vertical-scroll-proportion="0.5958904">
+          <caret line="29" column="23" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="23" />
           <folding />
         </state>
       </provider>
