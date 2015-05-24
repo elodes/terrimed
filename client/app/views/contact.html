@@ -20,9 +20,22 @@
 
 <h2>Location:</h2>
 <div class="row">
-  <div class="col-md-3"><p>Clarity Counseling Services is located at 206 N. Randolph Street, at the Church Street Square Mall & Corporate Center, in Suite M106.</p></div>
-  <div class="col-md-3"><img src="images/storefront.png" alt="Church Street Square mall & conference center" class="img-rounded img-responsive"></div>
+  <div class="col-md-3 col-xs-6"><p>Clarity Counseling Services is located at 206 N. Randolph Street, at the Church Street Square Mall & Corporate Center, in Suite M106.</p></div>
+  <div class="col-md-3 col-xs-6"><img src="images/storefront.png" alt="Church Street Square mall & conference center" class="img-rounded img-responsive"></div>
   </div>
+
+<h3>Please use the form below to send an email directly to Clarity Counseling Services:</h3>
+
+<!-- Contact Form based on http://www.bossable.com/1745/angularjs-material-design-contact-form/ -->
+
+<div data-ng-controller="ContactFormController as cf" flex layout="row" layout-align="center center">
+  <form name="contactForm" data-ng-submit="cf.sendMail()">
+    Name: <br> <input ng-model="cf.contactName" required> <br> <br>
+    Email:<br> <input type="email" ng-model="cf.contactEmail" required> <br> <br>
+    Message: <br> <textarea ng-model="cf.contactMsg" columns="1" required></textarea> <br>
+    <button type="submit">Send</button>
+  </form>
+</div>
 
 
 <!--
