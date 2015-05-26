@@ -7,7 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="79c9bd9a-45cd-4a1d-8c7a-d5f214d7993a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/views/blog.html" afterPath="$PROJECT_DIR$/client/app/views/blog.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/styles/main.scss" afterPath="$PROJECT_DIR$/client/app/styles/main.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="mithrandir.iws" />
@@ -40,11 +40,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="blog.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="blog.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/app/views/blog.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.22245763">
+            <state vertical-scroll-proportion="-4.375">
               <caret line="7" column="69" selection-start-line="7" selection-start-column="69" selection-end-line="7" selection-end-column="69" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_variables.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/app/styles/_variables.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-116.25">
+              <caret line="203" column="0" selection-start-line="203" selection-start-column="0" selection-end-line="203" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -75,6 +85,16 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="93" column="35" selection-start-line="93" selection-start-column="35" selection-end-line="93" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.scss" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/client/app/styles/main.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.46067417">
+              <caret line="172" column="23" selection-start-line="172" selection-start-column="23" selection-end-line="172" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -137,7 +157,6 @@
         <option value="$PROJECT_DIR$/client/app/views/weight.html" />
         <option value="$PROJECT_DIR$/client/app/views/main.html" />
         <option value="$PROJECT_DIR$/client/app/scripts/controllers/contact.js" />
-        <option value="$PROJECT_DIR$/client/app/styles/main.scss" />
         <option value="$PROJECT_DIR$/client/Gruntfile.js" />
         <option value="$PROJECT_DIR$/client/envvar.js" />
         <option value="$PROJECT_DIR$/client/app/scripts/controllers/ContactForm.js" />
@@ -157,6 +176,7 @@
         <option value="$PROJECT_DIR$/client/app/scripts/app.js" />
         <option value="$PROJECT_DIR$/client/app/views/5-25-15.html" />
         <option value="$PROJECT_DIR$/client/app/views/blog.html" />
+        <option value="$PROJECT_DIR$/client/app/styles/main.scss" />
       </list>
     </option>
   </component>
@@ -869,13 +889,7 @@
       <workItem from="1431832179012" duration="15199000" />
       <workItem from="1432311371571" duration="10327000" />
       <workItem from="1432493313789" duration="4138000" />
-      <workItem from="1432605966915" duration="1774000" />
-    </task>
-    <task id="LOCAL-00009" summary="Centered frontlinks, tried to make them clickable (fail), fonts, containers">
-      <created>1429847633414</created>
-      <option name="number" value="00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1429847633414</updated>
+      <workItem from="1432605966915" duration="1882000" />
     </task>
     <task id="LOCAL-00010" summary="style">
       <created>1429968618206</created>
@@ -1165,11 +1179,17 @@
       <option name="project" value="LOCAL" />
       <updated>1432608287069</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="blog1">
+      <created>1432608351145</created>
+      <option name="number" value="00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1432608351145</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="129264000" />
+    <option name="totallyTimeSpent" value="129372000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="874" extended-state="6" />
@@ -1417,13 +1437,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/app/styles/_variables.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.849315">
-          <caret line="203" column="0" selection-start-line="203" selection-start-column="0" selection-end-line="203" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client/app/scripts/controllers/ContactForm.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1536,14 +1549,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/app/styles/main.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="181" column="1" selection-start-line="181" selection-start-column="1" selection-end-line="181" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client/app/robots.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1650,8 +1655,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/client/app/views/blog.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.22245763">
+        <state vertical-scroll-proportion="-4.375">
           <caret line="7" column="69" selection-start-line="7" selection-start-column="69" selection-end-line="7" selection-end-column="69" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/app/styles/_variables.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-116.25">
+          <caret line="203" column="0" selection-start-line="203" selection-start-column="0" selection-end-line="203" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/app/styles/main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.46067417">
+          <caret line="172" column="23" selection-start-line="172" selection-start-column="23" selection-end-line="172" selection-end-column="23" />
           <folding />
         </state>
       </provider>
