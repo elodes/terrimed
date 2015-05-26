@@ -90,6 +90,10 @@ angular
         templateUrl: 'views/blog.html',
         controller: 'AboutCtrl'
       })
+      .when('/5-25-15', {
+        templateUrl: 'views/5-25-15.html',
+        controller: 'AboutCtrl'
+      })
       .when('/terri', {
         templateUrl: 'views/terri.html',
         controller: 'AboutCtrl'
