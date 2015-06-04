@@ -103,8 +103,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/client/app/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.41598362">
-              <caret line="171" column="72" selection-start-line="171" selection-start-column="72" selection-end-line="171" selection-end-column="72" />
+            <state vertical-scroll-proportion="0.477459">
+              <caret line="173" column="84" selection-start-line="173" selection-start-column="84" selection-end-line="173" selection-end-column="84" />
               <folding />
             </state>
           </provider>
@@ -420,12 +420,6 @@
       <workItem from="1432605966915" duration="2359000" />
       <workItem from="1432691075142" duration="131000" />
     </task>
-    <task id="LOCAL-00017" summary="playing with form, small banner/footer changes">
-      <created>1431883908496</created>
-      <option name="number" value="00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1431883908496</updated>
-    </task>
     <task id="LOCAL-00018" summary="front page temp update">
       <created>1431972822721</created>
       <option name="number" value="00018" />
@@ -714,7 +708,13 @@
       <option name="project" value="LOCAL" />
       <updated>1433444282961</updated>
     </task>
-    <option name="localTasksCounter" value="66" />
+    <task id="LOCAL-00066" summary="edits-post meeting 6-4">
+      <created>1433444383812</created>
+      <option name="number" value="00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1433444383812</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -1165,8 +1165,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/client/app/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.41598362">
-          <caret line="171" column="72" selection-start-line="171" selection-start-column="72" selection-end-line="171" selection-end-column="72" />
+        <state vertical-scroll-proportion="0.477459">
+          <caret line="173" column="84" selection-start-line="173" selection-start-column="84" selection-end-line="173" selection-end-column="84" />
           <folding />
         </state>
       </provider>
