@@ -6,7 +6,8 @@
     </option>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="79c9bd9a-45cd-4a1d-8c7a-d5f214d7993a" name="Default" comment="">
+    <list default="true" id="79c9bd9a-45cd-4a1d-8c7a-d5f214d7993a" name="Default" comment="change box font">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/views/main.html" afterPath="$PROJECT_DIR$/client/app/views/main.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/styles/main.scss" afterPath="$PROJECT_DIR$/client/app/styles/main.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -60,11 +61,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="main.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/client/app/views/main.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-46.25">
-              <caret line="74" column="0" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.47808766">
+              <caret line="25" column="157" selection-start-line="25" selection-start-column="157" selection-end-line="25" selection-end-column="157" />
               <folding />
             </state>
           </provider>
@@ -100,11 +101,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/app/styles/main.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7968128">
-              <caret line="152" column="64" selection-start-line="152" selection-start-column="64" selection-end-line="152" selection-end-column="64" />
+            <state vertical-scroll-proportion="-25.0">
+              <caret line="152" column="28" selection-start-line="152" selection-start-column="28" selection-end-line="152" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -205,8 +206,8 @@
         <option value="$PROJECT_DIR$/client/app/views/adolescents.html" />
         <option value="$PROJECT_DIR$/client/app/views/payment.html" />
         <option value="$PROJECT_DIR$/client/app/index.html" />
-        <option value="$PROJECT_DIR$/client/app/views/main.html" />
         <option value="$PROJECT_DIR$/client/app/styles/main.scss" />
+        <option value="$PROJECT_DIR$/client/app/views/main.html" />
       </list>
     </option>
   </component>
@@ -549,12 +550,6 @@
       <workItem from="1432605966915" duration="2359000" />
       <workItem from="1432691075142" duration="131000" />
     </task>
-    <task id="LOCAL-00041" summary="grief banner">
-      <created>1432311945708</created>
-      <option name="number" value="00041" />
-      <option name="project" value="LOCAL" />
-      <updated>1432311945708</updated>
-    </task>
     <task id="LOCAL-00042" summary="circle spacing">
       <created>1432312145515</created>
       <option name="number" value="00042" />
@@ -843,7 +838,13 @@
       <option name="project" value="LOCAL" />
       <updated>1433534251807</updated>
     </task>
-    <option name="localTasksCounter" value="90" />
+    <task id="LOCAL-00090" summary="change box font">
+      <created>1433534374098</created>
+      <option name="number" value="00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1433534374098</updated>
+    </task>
+    <option name="localTasksCounter" value="91" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -929,7 +930,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="child copy &amp; pics" />
     <MESSAGE value="weight copy" />
     <MESSAGE value="grief/anxiety temp text" />
     <MESSAGE value="typos" />
@@ -954,7 +954,8 @@
     <MESSAGE value="hide banner on phones" />
     <MESSAGE value="banner for phone&#10;" />
     <MESSAGE value="hide main page boxes for phone" />
-    <option name="LAST_COMMIT_MESSAGE" value="hide main page boxes for phone" />
+    <MESSAGE value="change box font" />
+    <option name="LAST_COMMIT_MESSAGE" value="change box font" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1317,18 +1318,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/app/views/main.html">
+    <entry file="file://$PROJECT_DIR$/client/app/styles/main.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-46.25">
-          <caret line="74" column="0" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
+        <state vertical-scroll-proportion="-25.0">
+          <caret line="152" column="28" selection-start-line="152" selection-start-column="28" selection-end-line="152" selection-end-column="28" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/app/styles/main.scss">
+    <entry file="file://$PROJECT_DIR$/client/app/views/main.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7968128">
-          <caret line="152" column="64" selection-start-line="152" selection-start-column="64" selection-end-line="152" selection-end-column="64" />
+        <state vertical-scroll-proportion="0.47808766">
+          <caret line="25" column="157" selection-start-line="25" selection-start-column="157" selection-end-line="25" selection-end-column="157" />
           <folding />
         </state>
       </provider>
