@@ -7,9 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="79c9bd9a-45cd-4a1d-8c7a-d5f214d7993a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/index.html" afterPath="$PROJECT_DIR$/client/app/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/styles/main.scss" afterPath="$PROJECT_DIR$/client/app/styles/main.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="mithrandir.iws" />
@@ -105,8 +103,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/client/app/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.57768923">
-              <caret line="50" column="36" selection-start-line="50" selection-start-column="36" selection-end-line="50" selection-end-column="36" />
+            <state vertical-scroll-proportion="0.6374502">
+              <caret line="173" column="62" selection-start-line="173" selection-start-column="62" selection-end-line="173" selection-end-column="62" />
               <folding />
             </state>
           </provider>
@@ -551,12 +549,6 @@
       <workItem from="1432605966915" duration="2359000" />
       <workItem from="1432691075142" duration="131000" />
     </task>
-    <task id="LOCAL-00022" summary="small updates early launch3">
-      <created>1432177796182</created>
-      <option name="number" value="00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1432177796182</updated>
-    </task>
     <task id="LOCAL-00023" summary="small updates early launch3">
       <created>1432177864510</created>
       <option name="number" value="00023" />
@@ -845,7 +837,13 @@
       <option name="project" value="LOCAL" />
       <updated>1433476134355</updated>
     </task>
-    <option name="localTasksCounter" value="71" />
+    <task id="LOCAL-00071" summary="edits-post meeting 6-4">
+      <created>1433476338609</created>
+      <option name="number" value="00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1433476338609</updated>
+    </task>
+    <option name="localTasksCounter" value="72" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -1328,8 +1326,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/client/app/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.57768923">
-          <caret line="50" column="36" selection-start-line="50" selection-start-column="36" selection-end-line="50" selection-end-column="36" />
+        <state vertical-scroll-proportion="0.6374502">
+          <caret line="173" column="62" selection-start-line="173" selection-start-column="62" selection-end-line="173" selection-end-column="62" />
           <folding />
         </state>
       </provider>
