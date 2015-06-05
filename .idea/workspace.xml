@@ -74,7 +74,7 @@
         <entry file="file://$PROJECT_DIR$/client/app/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.47808766">
-              <caret line="55" column="38" selection-start-line="55" selection-start-column="38" selection-end-line="55" selection-end-column="38" />
+              <caret line="55" column="37" selection-start-line="55" selection-start-column="37" selection-end-line="55" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -549,12 +549,6 @@
       <workItem from="1432605966915" duration="2359000" />
       <workItem from="1432691075142" duration="131000" />
     </task>
-    <task id="LOCAL-00037" summary="footer update">
-      <created>1432267317581</created>
-      <option name="number" value="00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1432267317582</updated>
-    </task>
     <task id="LOCAL-00038" summary="footer update">
       <created>1432267430918</created>
       <option name="number" value="00038" />
@@ -843,7 +837,13 @@
       <option name="project" value="LOCAL" />
       <updated>1433533718100</updated>
     </task>
-    <option name="localTasksCounter" value="86" />
+    <task id="LOCAL-00086" summary="banner for phone&#10;">
+      <created>1433533805124</created>
+      <option name="number" value="00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1433533805124</updated>
+    </task>
+    <option name="localTasksCounter" value="87" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -1328,7 +1328,7 @@
     <entry file="file://$PROJECT_DIR$/client/app/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.47808766">
-          <caret line="55" column="38" selection-start-line="55" selection-start-column="38" selection-end-line="55" selection-end-column="38" />
+          <caret line="55" column="37" selection-start-line="55" selection-start-column="37" selection-end-line="55" selection-end-column="37" />
           <folding />
         </state>
       </provider>
