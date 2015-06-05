@@ -6,9 +6,8 @@
     </option>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="79c9bd9a-45cd-4a1d-8c7a-d5f214d7993a" name="Default" comment="change box font">
+    <list default="true" id="79c9bd9a-45cd-4a1d-8c7a-d5f214d7993a" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/views/main.html" afterPath="$PROJECT_DIR$/client/app/views/main.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/styles/main.scss" afterPath="$PROJECT_DIR$/client/app/styles/main.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="mithrandir.iws" />
@@ -64,8 +63,8 @@
       <file leaf-file-name="main.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/client/app/views/main.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.47808766">
-              <caret line="25" column="157" selection-start-line="25" selection-start-column="157" selection-end-line="25" selection-end-column="157" />
+            <state vertical-scroll-proportion="0.37848607">
+              <caret line="19" column="166" selection-start-line="19" selection-start-column="166" selection-end-line="19" selection-end-column="166" />
               <folding />
             </state>
           </provider>
@@ -550,12 +549,6 @@
       <workItem from="1432605966915" duration="2359000" />
       <workItem from="1432691075142" duration="131000" />
     </task>
-    <task id="LOCAL-00042" summary="circle spacing">
-      <created>1432312145515</created>
-      <option name="number" value="00042" />
-      <option name="project" value="LOCAL" />
-      <updated>1432312145515</updated>
-    </task>
     <task id="LOCAL-00043" summary="circle spacing">
       <created>1432312237438</created>
       <option name="number" value="00043" />
@@ -844,7 +837,13 @@
       <option name="project" value="LOCAL" />
       <updated>1433534374098</updated>
     </task>
-    <option name="localTasksCounter" value="91" />
+    <task id="LOCAL-00091" summary="change box font">
+      <created>1433534492793</created>
+      <option name="number" value="00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1433534492793</updated>
+    </task>
+    <option name="localTasksCounter" value="92" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -1328,8 +1327,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/client/app/views/main.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.47808766">
-          <caret line="25" column="157" selection-start-line="25" selection-start-column="157" selection-end-line="25" selection-end-column="157" />
+        <state vertical-scroll-proportion="0.37848607">
+          <caret line="19" column="166" selection-start-line="19" selection-start-column="166" selection-end-line="19" selection-end-column="166" />
           <folding />
         </state>
       </provider>
