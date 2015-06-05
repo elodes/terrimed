@@ -91,7 +91,7 @@ angular
         controller: 'AboutCtrl'
       })
       .when('/5-25-15', {
-        templateUrl: 'views/5-25-15.html',
+        templateUrl: 'views/6-5-15.html',
         controller: 'AboutCtrl'
       })
       .when('/terri', {
