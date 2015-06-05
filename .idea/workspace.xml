@@ -73,8 +73,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/client/app/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.49800798">
-              <caret line="56" column="97" selection-start-line="56" selection-start-column="97" selection-end-line="56" selection-end-column="97" />
+            <state vertical-scroll-proportion="0.47808766">
+              <caret line="55" column="38" selection-start-line="55" selection-start-column="38" selection-end-line="55" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -549,12 +549,6 @@
       <workItem from="1432605966915" duration="2359000" />
       <workItem from="1432691075142" duration="131000" />
     </task>
-    <task id="LOCAL-00036" summary="footer update">
-      <created>1432267214675</created>
-      <option name="number" value="00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1432267214675</updated>
-    </task>
     <task id="LOCAL-00037" summary="footer update">
       <created>1432267317581</created>
       <option name="number" value="00037" />
@@ -843,7 +837,13 @@
       <option name="project" value="LOCAL" />
       <updated>1433533586267</updated>
     </task>
-    <option name="localTasksCounter" value="85" />
+    <task id="LOCAL-00085" summary="banner for phone&#10;">
+      <created>1433533718100</created>
+      <option name="number" value="00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1433533718100</updated>
+    </task>
+    <option name="localTasksCounter" value="86" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -929,7 +929,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="circle banners" />
     <MESSAGE value="child copy" />
     <MESSAGE value="child copy &amp; pics" />
     <MESSAGE value="weight copy" />
@@ -954,7 +953,8 @@
     <MESSAGE value="copy changes" />
     <MESSAGE value="combined about &amp; welcome" />
     <MESSAGE value="hide banner on phones" />
-    <option name="LAST_COMMIT_MESSAGE" value="hide banner on phones" />
+    <MESSAGE value="banner for phone&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="banner for phone&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1327,8 +1327,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/client/app/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.49800798">
-          <caret line="56" column="97" selection-start-line="56" selection-start-column="97" selection-end-line="56" selection-end-column="97" />
+        <state vertical-scroll-proportion="0.47808766">
+          <caret line="55" column="38" selection-start-line="55" selection-start-column="38" selection-end-line="55" selection-end-column="38" />
           <folding />
         </state>
       </provider>
