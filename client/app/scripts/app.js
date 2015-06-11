@@ -90,7 +90,7 @@ angular
         templateUrl: 'views/blog.html',
         controller: 'AboutCtrl'
       })
-      .when('/5-25-15', {
+      .when('/6-5-15', {
         templateUrl: 'views/6-5-15.html',
         controller: 'AboutCtrl'
       })

@@ -13,7 +13,7 @@ module.exports = {
 
   sendgrid: {
     clientID: process.env.SENDGRID_TM_ID || 'APP_ID',
-    clientSecret: process.env.SENDGRID_TM_SECRET || 'APP_SECRET',
+    clientSecret: process.env.SENDGRID_TM_PASSWORD || 'APP_SECRET',
     callbackURL:
   }
 
