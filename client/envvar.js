@@ -18,8 +18,8 @@ module.exports = {
   }
 
   zoho: {
-    user: process.env.ZOHO_TM_USER || 'APP_ID',
-    pass: process.env.ZOHO_TM_PASS || 'APP_SECRET'
+    user: process.env.ZOHO_TM_ID || 'APP_ID',
+    pass: process.env.ZOHO_TM_KEY || 'APP_SECRET'
   }
 
 }

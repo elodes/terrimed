@@ -33,19 +33,21 @@ angular.module('clientApp')
 //  this.check = function(checkController){
 //    return this.checkVar === checkController;
 //    };
+
+
 // using SendGrid's Node.js Library - https://github.com/sendgrid/sendgrid-nodejs
-//    var sendgridUser = 'tmedwed';
-//    var sendgridPassword = 'Kidscry1!';
-//    var sendgrid  = require('sendgrid')(sendgridUser, sendgridPassword);
-//    sendgrid.send({
-//      to:       'erin.lodes@gmail.com',
-//      from:     'other@example.com',
-//      subject:  'Hello World',
-//      text:     'My first email through SendGrid.'
-//    }, function(err) {
-//      if (err) { return console.error('noooo!'); }
-//      console.log('yesssss!');
-//    });
+    var sendgridUser = 'tmedwed';
+    var sendgridPassword = 'Kidscry1!';
+    var sendgrid  = require('sendgrid')(sendgridUser, sendgridPassword);
+    sendgrid.send({
+      to:       'erin.lodes@gmail.com',
+      from:     'other@example.com',
+      subject:  'Hello World',
+      text:     'My first email through SendGrid.'
+    }, function(err) {
+      if (err) { return console.error('noooo!'); }
+      console.log('yesssss!');
+    });
 
 
 
