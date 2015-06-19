@@ -1,104 +1,58 @@
-'use strict';
+var secrets = require('.../secrets');
+var nodemailer = require("nodemailer");
+var transporter = nodemailer.createTransport({
+  service: 'SendGrid',
+  auth: {
+    user: secrets.sendgrid.user,
+    pass: secrets.sendgrid.password
+  }
+});
 
 /**
- * @ngdoc function
- * @name clientApp.controller:MainCtrl
- * @description
- * # MainCtrl
- * Controller of the clientApp
+ * GET /contact
+ * Contact form page.
  */
-angular.module('clientApp')
-  .controller('ContactCtrl', function ($scope, $http) {
-    $scope.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
-    ];
-    $scope.submitEmail = function() {
-
-      console.log("TEST");
-      //Request
-      $http.post('/email', $scope.email)
-        .success(function(data, status) {
-          console.log("Sent ok");
-        })
-        .error(function(data, status) {
-          console.log("Error");
-        })
-    };
+exports.getContact = function(req, res) {
+  res.render('contact', {
+    title: 'Contact'
   });
+};
 
-//  var checkJsVar = 0;
-//    this.checkVar = 0;
-//  this.check = function(checkController){
-//    return this.checkVar === checkController;
-//    };
+/**
+ * POST /contact
+ * Send a contact form via Nodemailer.
+ */
+exports.postContact = function(req, res) {
+  req.assert('name', 'Name cannot be blank').notEmpty();
+  req.assert('email', 'Email is not valid').isEmail();
+  req.assert('message', 'Message cannot be blank').notEmpty();
 
+  var errors = req.validationErrors();
 
-// using SendGrid's Node.js Library - https://github.com/sendgrid/sendgrid-nodejs
-    var sendgridUser = 'tmedwed';
-    var sendgridPassword = 'Kidscry1!';
-    var sendgrid  = require('sendgrid')(sendgridUser, sendgridPassword);
-    sendgrid.send({
-      to:       'erin.lodes@gmail.com',
-      from:     'other@example.com',
-      subject:  'Hello World',
-      text:     'My first email through SendGrid.'
-    }, function(err) {
-      if (err) { return console.error('noooo!'); }
-      console.log('yesssss!');
-    });
+  if (errors) {
+    req.flash('errors', errors);
+    return res.redirect('/contact');
+  }
 
+  var from = req.body.email;
+  var name = req.body.name;
+  var body = req.body.message;
+  var to = 'development@claritycounselingservices.com';
+  var subject = 'Contact Form | CCS Website';
 
+  var mailOptions = {
+    to: to,
+    from: from,
+    subject: subject,
+    text: body
+  };
 
-
-
-
-// DROPDOWN JQuery
-//    $(function(){
-//      $(".dropdown").hover(
-//        function() {
-//          $('.dropdown-menu', this).stop( true, true ).fadeIn("fast");
-//          $(this).toggleClass('open');
-//          $('b', this).toggleClass;
-//        },
-//        function() {
-//          $('.dropdown-menu', this).stop( true, true ).fadeOut("fast");
-//          $(this).toggleClass('open');
-//          $('b', this).toggleClass;
-//        });
-//    });
-
-
-
-
-    //sweetcaptahcs stuff:
-
-    //App.js
-
-//Require the sweetcaptcha module and give it the credentials you were sent upon registration.
-//    var sweetcaptcha = new require('sweetcaptcha')(appId, appKey, appSecret);
-
-// The page that your contact form is on should have a route like this
-//    app.get('/', function(req, res){
-
-      //get sweetcaptcha html for the contact area
-//      sweetcaptcha.api('get_html', function(err,html){
-        //Send the guts of the captcha to your template
-//        res.render('main', { captcha : html });
-//      });
-
-//    });
-
-
-
-
-
-
-// google dynamic map needs
-
-    //$scope.isActive = function (viewLocation) {
-    //  var active = (viewLocation === $location.path());
-    //  return active;
-    //};
+  transporter.sendMail(mailOptions, function(err) {
+    if (err) {
+      req.flash('errors', { msg: err.message });
+      return res.redirect('/contact');
+    }
+    req.flash('success', { msg: 'Email has been sent successfully!' });
+    res.redirect('/contact');
   });
+};
