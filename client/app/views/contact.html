@@ -1,14 +1,18 @@
 <div class="banner">
-  <img class="img-responsive" src="images/sea-set-banner.png" alt="waterfall">
+  <img class="img-responsive" src="images/sea-set-banner.png" alt="sunset over the sea">
 </div>
 
 <h2>Contact Me</h2>
 
-<p>Please contact Clarity Counseling Services directly with any questions or to schedule an appointment.</p>
+<p>Use the form below to send a message directly to Clarity Counseling Services with any questions or to schedule an appointment.</p>
 
+<!-- www.123contactform.com script begins here -->
+<iframe allowTransparency="true" style="min-height:300px; height:inherit; overflow:auto;" width="100%" id="contactform123" name="contactform123" marginwidth="0" marginheight="0" frameborder="0" src="http://www.123contactform.com/my-contact-form-1483437.html">
+  <p>Your browser does not support iframes. The contact form cannot be displayed. Please use another contact method (phone, fax etc)</p>
+</iframe>
+<br>
+<h3>Contact Information:</h3>
 <p>Email Terri: <a href="mailto:terri@claritycounselingservices.com?Subject=CCS%20Contact" target="_top">terri@claritycounselingservices.com</a></p>
-
-<h2>Location:</h2>
 <div class="row">
   <div class="col-md-4 col-xs-6">
     <address>
@@ -29,14 +33,87 @@
 
 <br>
 
+<!--
 
-<div ng-controller="ClarityCtrl">
+<br>
+<div ng-controller="clarityCtrl">
   {{ greeting }}
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="well well-sm">
+          <form class="form-horizontal" method="post">
+            <fieldset>
+              <legend class="text-center header">Contact <abbr title="Clarity Counseling Services">CCS</abbr></legend>
+
+              <div class="form-group">
+                <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-user bigicon"></i></span>
+                <div class="col-md-8">
+                  <input id="fname" name="name" type="text" placeholder="First Name" class="form-control">
+                </div>
+              </div>
+              <div class="form-group">
+                <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-user bigicon"></i></span>
+                <div class="col-md-8">
+                  <input id="lname" name="name" type="text" placeholder="Last Name" class="form-control">
+                </div>
+              </div>
+
+              <div class="form-group">
+                <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-envelope-o bigicon"></i></span>
+                <div class="col-md-8">
+                  <input id="email" name="email" type="text" placeholder="Email Address" class="form-control">
+                </div>
+              </div>
+
+              <div class="form-group">
+                <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-phone-square bigicon"></i></span>
+                <div class="col-md-8">
+                  <input id="phone" name="phone" type="text" placeholder="Phone" class="form-control">
+                </div>
+              </div>
+
+              <div class="form-group">
+                <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-pencil-square-o bigicon"></i></span>
+                <div class="col-md-8">
+                  <textarea class="form-control" id="message" name="message" placeholder="Enter your massage for me here." rows="7"></textarea>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <div class="col-md-12 text-center">
+                  <button type="submit" class="btn btn-primary btn-lg">Submit</button>
+                </div>
+              </div>
+            </fieldset>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <style>
+    .header {
+      color: #36A0FF;
+      font-size: 27px;
+      padding: 10px;
+    }
+
+    .bigicon {
+      font-size: 35px;
+      color: #36A0FF;
+    }
+  </style>
+
+
+
+
 </div>
 
 <!--
 <script>
-  var app = angular.module('clientApp', []);
+  var app = angular.module('clientApp');
   app.controller('formCtrl', function() {
 
     var dotenv = require('dotenv');

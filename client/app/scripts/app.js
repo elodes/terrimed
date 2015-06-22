@@ -41,7 +41,7 @@ angular
       })
       .when('/contact', {
         templateUrl: 'views/contact.html',
-        controller: 'MainCtrl'
+        controller: 'ClarityCtrl'
       })
       .when('/depression', {
         templateUrl: 'views/depression.html',

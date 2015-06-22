@@ -1,8 +1,7 @@
 'use strict';
-var app = angular.module('clientApp', []);
 
-app.controller('ClarityCtrl', ['$scope', function($scope){
-  $scope.greeting = 'Hola!';
+angular.module('clientApp').controller('clarityCtrl', function($scope) {
+    $scope.greeting = 'Hola!';
 
     var dotenv = require('dotenv');
     dotenv.load();
@@ -17,7 +16,7 @@ app.controller('ClarityCtrl', ['$scope', function($scope){
 
     email.addTo(to);
     email.setFrom(to);
-    email.setSubject('[sendgrid-php-example] Owl');
+    email.setSubject('Owl');
     email.setText('Owl are you doing?');
     email.setHtml('<strong>%how% are you doing?</strong>');
     email.addSubstitution("%how%", "Owl");
