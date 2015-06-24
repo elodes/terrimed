@@ -1,11 +1,13 @@
 'use strict';
 
-angular.module('clientApp').controller('clarityCtrl', function($scope) {
+angular.module('clientApp').controller('ClarityCtrl', function($scope) {
     $scope.greeting = 'Hola!';
 
-    var dotenv = require('dotenv');
-    dotenv.load();
+    console.log("I am here");
+    //var dotenv = require('dotenv');
+    //dotenv.load();
 
+  //process.env.YOUR_ENV
     var sendgrid_username = process.env.SENDGRID_USERNAME;
     var sendgrid_password = process.env.SENDGRID_PASSWORD;
     var to = process.env.TO;

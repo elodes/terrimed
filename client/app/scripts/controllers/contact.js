@@ -26,7 +26,7 @@ angular.module('clientApp')
           console.log("Error");
         })
     };
-  });
+
 
 //  var checkJsVar = 0;
 //    this.checkVar = 0;
@@ -36,11 +36,11 @@ angular.module('clientApp')
 
 
 // using SendGrid's Node.js Library - https://github.com/sendgrid/sendgrid-nodejs
-    var sendgridUser = ;
-    var sendgridPassword =
+    var sendgridUser;
+    var sendgridPassword;
     var sendgrid  = require('sendgrid')(sendgridUser, sendgridPassword);
     sendgrid.send({
-      to:       ,
+      to:       'person@example.com',
       from:     'other@example.com',
       subject:  'Hello World',
       text:     'My first email through SendGrid.'
@@ -49,6 +49,7 @@ angular.module('clientApp')
       console.log('yesssss!');
     });
 
+  });
 
 
 
@@ -101,4 +102,4 @@ angular.module('clientApp')
     //  var active = (viewLocation === $location.path());
     //  return active;
     //};
-  });
+  //});
