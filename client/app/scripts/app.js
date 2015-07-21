@@ -59,8 +59,8 @@ angular
         templateUrl: 'views/weight.html',
         controller: 'MainCtrl'
       })
-      .when('/blog', {
-        templateUrl: 'views/blog.html',
+      .when('/articles', {
+        templateUrl: 'views/articles.html',
         controller: 'MainCtrl'
       })
       .when('/6-5-15', {
