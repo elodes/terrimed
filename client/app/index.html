@@ -46,7 +46,7 @@
       <div class="header-brand-wide">
 <div class="header-brand hidden-xs">
 <div class="row">
-  <div class="col-md-3 col-xs-2"><a href="#/"><img src="images/CCSlogo.png" alt="CCS" class="img-rounded img-responsive"></a></div>
+  <div class="col-md-3 col-xs-2"><a href="index.html"><img src="images/CCSlogo.png" alt="CCS" class="img-rounded img-responsive"></a></div>
     <div class="col-md-3 col-xs-0"> </div>
       <div class="col-md-6 col-xs-10"> <!-- <a class="btn btn-info"" href="#/" role="button">Request an Appointment</a>  -->
         <h4>206 N. Randolph Street, Suite M106 - Champaign, IL 61820</h4><h4>terri@claritycounselingservices.com</h4><h4>217.390.6819</h4></div>
@@ -141,17 +141,17 @@
 
              <ul class="nav navbar-nav pull-right">
 
-               <li ng-class="{ active: isActive('/blog') }"><a href="#/">Welcome</a></li>
+               <li ng-class="{ active: isActive('/blog') }"><a href="index.html">Welcome</a></li>
 
-               <li ng-class="{ active: isActive('/blog') }"><a href="#/philosophy">Philosophy</a></li>
+               <li ng-class="{ active: isActive('/blog') }"><a href="philosophy.html">Philosophy</a></li>
 
-               <li ng-class="{ active: isActive('/blog') }"><a href="#/terri">Meet Terri</a></li>
+               <li ng-class="{ active: isActive('/blog') }"><a href="terri.html">Meet Terri</a></li>
 
-               <li ng-class="{ active: isActive('/blog') }"><a href="#/contact">Contact Me</a></li>
+               <li ng-class="{ active: isActive('/blog') }"><a href="contact.html">Contact Me</a></li>
 
-               <li ng-class="{ active: isActive('/blog') }"><a href="#/articles">Articles</a></li>
+               <li ng-class="{ active: isActive('/blog') }"><a href="blog.html">Blog</a></li>
 
-               <li ng-class="{ active: isActive('/blog') }"><a href="#/payment">Insurance & Fees</a></li>
+               <li ng-class="{ active: isActive('/blog') }"><a href="payment.html">Insurance & Fees</a></li>
 
 
 
@@ -162,24 +162,146 @@
      </div>
 
 
-    <!-- Insert view here -->
+    <!-- Insert view here
     <div class="container">
       <div ng-view=""></div>
     </div>
+-->
+    <!-- page content -->
+    <div class="container">
+    <div class="banner">
+      <img class="img-responsive" src="images/banner1.png" alt="mountain road">
+    </div>
+
+    <div class="jumbotron">
+      <h1>Clarity Counseling Services</h1>
+      <p class="lead">
+        Mental Wellness Counseling - A Champaign Counseling Practice
+      </p>
+    </div>
 
 
-     <div class="footer">
+    <div class="row marketing">
+
+
+      <!-- <h3>Click below to learn how Clarity Counseling Services address a variety of needs:</h3> -->
+
+      <div class="row hidden-sm hidden-xs visible-md-block visible-lg-block">
+
+        <div class="col-md-3 frontlink"><a href="depression.html"><img src="images/man-square.png" alt="Anxiety/Depression" class="img-rounded img-responsive"></a><h3><a href="depression.html">Anxiety & Depression</a></h3></div>
+
+        <div class="col-md-3 frontlink"><a href="grief.html"><img src="images/woman-square.png" alt="Grief & Loss" class="img-rounded img-responsive"></a><h3><a href="grief.html">Grief & Loss</a></h3></div>
+
+        <div class="col-md-3 frontlink"><a href="adolescents.html"><img src="images/girl-square.png" alt="Child & Teen Issues" class="img-rounded img-responsive"></a><h3><a href="adolescents.html">Children & Teens</a></h3></div>
+
+        <div class="col-md-3 frontlink"><a href="weight.html"><img src="images/eye-square.png" alt="Weight Issues" class="img-rounded img-responsive"></a><h3><a href="weight.html">Weight Issues</a></h3></div>
+      </div>
+
+      <div class="row mobile hidden-md hidden-lg">
+
+        <div class="col-s-6 col-xs-6 frontlink"><a href="depression.html"><img src="images/man-square.png" alt="Anxiety/Depression" class="img-rounded img-responsive"></a><h5 ng-click="goto('/depression')">Anxiety & Depression</h5></div>
+
+        <div class="col-s-6 col-xs-6 frontlink"><a href="grief.html"><img src="images/woman-square.png" alt="Grief & Loss" class="img-rounded img-responsive"></a><h4 ng-click="goto('/grief')">Grief & Loss</h4></div>
+
+        <div class="col-s-6 col-xs-6 frontlink"><a href="adolescents.html"><img src="images/girl-square.png" alt="Child & Teen Issues" class="img-rounded img-responsive"></a><h4 ng-click="goto('/adolescents')">Children & Teens</h4></div>
+
+        <div class="col-s-6 col-xs-6 frontlink"><a href="weight.html"><img src="images/eye-square.png" alt="Weight Issues" class="img-rounded img-responsive"></a><h4 ng-click="goto('/weight')">Weight Issues</h4></div>
+      </div>
+
+      <h2>Welcome!</h2>
+
+      <div class="row">
+        <div class="row">
+          <div class="col-xs-12 col-sm-6 col-md-8">
+            <p>Hello, and welcome to my website! I'm Terri, founder of Clarity Counseling Services in Champaign, Illinois. I'd like to personally invite you to read on, and learn more about me
+              and the experience of seeing a counselor.</p>
+            <p>Whether you are looking to make a significant change in your life, need some assistance with coping skills, or need someone kind who will listen and be there for you, I think counseling
+              may be right for you.  At one time or another we all need help to cope with life’s challenges. Clients have shared with me that therapy is life altering. You might think “if only I was
+              emotionally stronger" or "I can just talk to my friend about this." Unfortunately in our busy world family members and friends are sometimes hard to talk to, or may not have the tools
+              to address your specific concerns. </p>
+            <p>I'm very familiar with the therapy process, and know that few people regret seeing a counselor. I've heard from clients that they found it helpful to have an outside, confidential
+              person to talk to. They appreciated a different perspective or getting clarity on an issue that they had been struggling with for a long time.
+              These are just a few comments that I have received from former clients:</p>
+            <blockquote class="blockquote"><em>"If only I had known all along that it would be so helpful and supportive, and enjoyable!"</em></blockquote>
+            <blockquote class="blockquote-reverse"><em>"I should have done this years ago. It’s like a heavy weight has been lifted off my back."</em></blockquote>
+
+            <p>My clients describe me as a warm, understanding, and easy-going individual who is easy to talk to. I went into counseling because I enjoy working with people and feel that I have
+              a knack for helping them. I enjoy providing clients with tools so they can go on and lead productive lives. You can learn more about me <a href="terri.html">here.</a></p>
+
+            <p>I would be honored to work with you and make a positive contribution in your life. I am so glad that you have visited my website and hope you find the answers to your questions here. If
+              you have any questions please <a href="contact.html">call or e-mail</a> me. I would be happy to discuss any questions you may have about the therapy process.
+              On behalf of <abbr title="Clarity Counseling Services">CCS</abbr>, Welcome!</p>
+
+
+            <div class="hidden-lg hidden-md hidden-sm visible-xs">
+              <div class="well"><h4>Now accepting clients:</h4>
+                <p><a href="contact.html">Contact me</a> to schedule a FREE fifteen-minute phone consultation. See my <a href="payment.html">insurance page</a> for more
+                  information about fees and using insurance to pay for counseling services.</p></div>
+
+              <div class="well"><h4>Unique Video Counseling available!</h4>
+                <p>
+                  I'm excited about trying new things, and am available for web-based video counseling over a secure network, using your computer,
+                  computer camera, and internet access. Interested? <a href="contact.html">Contact me</a> and let me know you'd like to try video counseling,
+                  and we will set up a session.</p></div>
+            </div>
+
+          </div>
+          <div class="hidden-xs col-sm-6 col-md-4">
+            <br>
+            <br>
+            <br>
+            <div class="well"><h4>Now accepting clients:</h4>
+              <p><a href="contact.html">Contact me</a> to schedule a FREE fifteen-minute phone consultation. See my <a href="payment.html">insurance page</a> for more
+                information about fees and using insurance to pay for counseling services.</p></div>
+            <br>
+            <br>
+            <div class="well"><h4>Unique Video Counseling available!</h4>
+              <p>
+                I'm excited about trying new things, and am available for web-based video counseling over a secure network, using your computer,
+                computer camera, and internet access. Interested? <a href="contact.html">Contact me</a> and let me know you'd like to try video counseling,
+                and we will set up a session.</p></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+
+
+    <div class="footer">
        <div class="container">
-       <div class="row">
-
+         <div class="row">
+           <div class="col-md-6">
+             <address>
+               <strong>Clarity Counseling Services</strong><br>
+               Church Street Square Mall & Corporate Center<br>
+               206 N. Randolph St, Suite M106<br>
+               Champaign, IL 61820<br>
+               <abbr title="Phone">P:</abbr> (217) 390-6819
+             </address>
+             </div>
+           <div class="col-md-3">
+             <p><a href="index.html">Welcome</a><br>
+             <a href="philosophy.html">Philosophy</a><br>
+             <a href="terri.html">Meet Terri</a><br>
+             <a href="blog.html">Terri's Blog</a><br>
+             <a href="payment.html">Insurance & Payment</a></p>
+             </div>
+           <div class="col-md-3">
+             <p><a href="depression.html">Anxiety & Depression</a><br>
+             <a href="grief.html">Grief & Loss</a><br>
+             <a href="adolescents.html">Children & Teens</a><br>
+             <a href="weight.html">Weight Issues</a></p>
+             </div>
+         </div>
+<br>
+         <div class="row">
          <div class="col-md-3 col-xs-6"><p>&copy; Terri Medwed, 2015</p></div>
          <div class="col-md-5 col-xs-0"></div>
          <div class="col-md-4 col-xs-6"><p><i class="fa fa-eye"></i> site design by <a href="http://erinmakes.com" target="_blank">erinmakes.com</a></p></div>
        </div>
        </div>
-        <!--
-         <p class="frontlink">Clarity Counseling Services - 206 N. Randolph St. Suite M106, Champaign, IL - 217.390.6819 - terri@claritycounselingservices.com</p>
-        -->
+
+
 
        </div>
 

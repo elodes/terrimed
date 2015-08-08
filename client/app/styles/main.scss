@@ -79,6 +79,9 @@ body {
   p + h4 {
     margin-top: 28px;
   }
+  h3 + a {
+    color: $brand-dark;
+  }
 }
 
 /* Properties of header; above nav-bar */
@@ -146,8 +149,7 @@ body {
 
   /*Style for front visual links */
 
-  .frontlink,
-  .footer {
+  .frontlink {
     h3 {
       text-align: center;
       font-family: 'Slabo 27px', serif;
